@@ -1,4 +1,4 @@
-import { CustomBaseEntity } from 'src/common/entities/base.entity';
+import { CustomBaseEntity } from './../../../common/entities/base.entity';
 import { Role } from 'src/common/enums/role.enum';
 import { ArticleEntity } from 'src/modules/articles/entities/article.entity';
 import { Column, Entity, OneToMany } from 'typeorm';

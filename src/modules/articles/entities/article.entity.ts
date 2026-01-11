@@ -1,4 +1,5 @@
-import { CustomBaseEntity } from 'src/common/entities/base.entity';
+
+import { CustomBaseEntity } from './../../../common/entities/base.entity';
 import { ArticleStatus } from 'src/common/enums/article-status.enum';
 import { UserEntity } from 'src/modules/users/entities/user.entity';
 import { Column, Entity, JoinColumn, ManyToOne } from 'typeorm';
